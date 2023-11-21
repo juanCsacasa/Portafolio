@@ -1,0 +1,73 @@
+@import '../sass/partials/aboutme';
+@import '../sass/partials/footer';
+@import '../sass/partials/menu';
+@import '../sass/partials/contentmain';
+@import '../sass/partials/contentstack';
+@import '../sass/partials/project';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+h1{
+  font-size: $title-letters-mobile-h1;
+}
+h2{
+  font-size: $title-letters-mobile-h2;
+}
+h3{
+  font-size: $title-letters-mobile-h3;
+}
+p{
+  font-size: $text-letters;
+}
+li{
+  font-size: $text-letters;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  h1{
+    font-size: $title-letters-mid-h1;
+  }
+  
+  h2{
+    font-size: $title-letters-mid-h2;
+  }
+  
+  h3{
+    font-size: $title-letters-mid-h3;
+  }
+  
+  p{
+    font-size: $text-letters;
+  }
+  
+  li{
+    font-size: $text-letters;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1{
+    font-size: $title-letters-desktop-h1;
+  }
+  
+  h2{
+    font-size: $title-letters-desktop-h2;
+  }
+  
+  h3{
+    font-size: $title-letters-desktop-h3;
+  }
+  
+  p{
+    font-size: $text-letters-desktop;
+  }
+  
+  li{
+    font-size: $text-letters-desktop;
+  }
+}
+

@@ -1,0 +1,398 @@
+.aboutMe {
+  background-image: url(../img/astronaut-looking-at-the-sky_3840x2160_xtrafondos.com.jpg);
+  width: 100%;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutMe-title {
+  margin-bottom: 10px;
+}
+
+.aboutMe-text {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.ftr {
+  background-image: url(../img/astronaut-looking-at-the-sky_3840x2160_xtrafondos.com.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  color: white;
+}
+
+.ftr-title {
+  margin-bottom: 10px;
+}
+
+.ftr-text {
+  width: 70%;
+  text-align: justify;
+}
+
+.ftr-social {
+  margin-top: 20px;
+}
+
+.ftr-social_icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .ftr-text {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ftr {
+    height: 300px;
+  }
+  .ftr-text {
+    text-align: center;
+  }
+}
+.navegation {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navegation-menu {
+  display: none;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 1;
+}
+
+.navegation-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navegation-link:hover {
+  background-color: cornflowerblue;
+}
+
+@media screen and (max-width: 768px) {
+  .navegation-menu.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navegation-link {
+    display: block;
+    margin: 10px 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .navegation-menu {
+    display: flex;
+    position: static;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .navegation-link {
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+  }
+}
+.content-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid cornflowerblue;
+  border-bottom: 2px solid cornflowerblue;
+}
+
+.content-main--width {
+  height: 100%;
+}
+
+.content-main-title {
+  width: 70%;
+}
+
+.content-main-title_color {
+  color: cornflowerblue;
+}
+
+.content-main-text {
+  width: 70%;
+  text-align: justify;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .content-main {
+    border: none;
+  }
+  .content-main--width {
+    height: 100%;
+  }
+  .content-main-title,
+  .content-main-text {
+    width: 70%;
+  }
+  .content-main-title_color {
+    color: cornflowerblue;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content-main {
+    border: none;
+  }
+  .content-main--width {
+    height: auto;
+  }
+  .content-main-title,
+  .content-main-text {
+    width: 50%;
+  }
+  .content-main-title_color {
+    color: cornflowerblue;
+  }
+}
+.content-stack-list li {
+  font-size: 16px;
+  list-style: georgian inside url("/img/public/shuttle-space-solid.svg");
+  text-align: justify;
+  width: 70%;
+}
+
+.content-stack {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-stack-text {
+  width: 70%;
+  text-align: justify;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .content-stack-title {
+    text-align: center;
+  }
+  .content-stack-text,
+  .content-stack-list {
+    width: 70%;
+  }
+  .content-stack {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content-stack-title {
+    text-align: center;
+  }
+  .content-stack-text {
+    width: 50%;
+  }
+  .content-stack {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .content-stack-list {
+    width: 40%;
+  }
+}
+.project {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-title {
+  color: cornflowerblue;
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.project-text--principal {
+  width: 70%;
+  text-align: justify;
+}
+
+.project-text {
+  padding: 10px;
+  text-align: justify;
+  width: 70%;
+}
+
+.project-description {
+  list-style-type: none;
+  width: 70%;
+  padding: 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .content-main--width {
+    height: 100%;
+  }
+  .project-title {
+    width: 50%;
+  }
+  .project-text--principal {
+    width: 70%;
+    text-align: justify;
+  }
+  .project {
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+  .project-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .project-text,
+  .project-description {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content-main--width {
+    height: auto;
+  }
+  .project-title {
+    width: 50%;
+    text-align: center;
+  }
+  .project-text--principal {
+    width: 50%;
+    text-align: justify;
+  }
+  .project {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .project-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .project-text,
+  .project-description {
+    width: 100%;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  li {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,39 @@
+.ftr {
+  background-image:url(../img/astronaut-looking-at-the-sky_3840x2160_xtrafondos.com.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  color: $color-white;
+}
+.ftr-title {
+  margin-bottom: 10px;
+}
+.ftr-text {
+  width: 70%;
+  text-align: justify;
+}
+.ftr-social {
+  margin-top: 20px;
+}
+.ftr-social_icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .ftr-text{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ftr{
+    height: 300px;
+  }
+  .ftr-text{
+    text-align: center;
+  }
+}

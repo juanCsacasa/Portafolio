@@ -1,0 +1,56 @@
+.content-stack-list {
+  li {
+    font-size: $text-letters;
+    list-style: georgian inside url('/img/public/shuttle-space-solid.svg');
+    text-align: justify;
+    width: 70%;
+  }
+}
+.content-stack {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content-stack-text {
+  width: 70%;
+  text-align: justify;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .content-stack-title{
+    text-align: center;
+  }
+  
+  .content-stack-text,
+  .content-stack-list {
+    width: 70%;
+  }
+
+  .content-stack {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content-stack-title{
+    text-align: center;
+  }
+  .content-stack-text {
+    width: 50%;
+  }
+  .content-stack {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .content-stack-list {
+    width: 40%;
+  }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/build/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="navegation">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav class="navegation-menu">
+      <a class="navegation-link" href="index.html">Home</a>
+      <a class="navegation-link" href="#aboutMe">About Me</a>
+      <a class="navegation-link" href="#stack">Stack</a>
+      <a class="navegation-link" href="#projects">Projects</a>
+    </nav>
+  </header>
+  <main class="aboutMe">
+    <h1 class="aboutMe-title">Juan Sacasa</h1>
+    <p class="aboutMe-text">Designer and Web developer</p>
+  </main>
+  <div class="content-main" id="aboutMe">
+    <h2 class="content-main-title">Hello, I am <span class="content-main-title_color">Juan Sacasa.</span></h2>
+    <p class="content-main-text">I am a junior programmer. I am 21 years old. I think that what I have liked the most
+      about this world are things like WordPress, which is a CMS. I am also interested in other things like React, which
+      is what I am currently studying.
+    </p>
+    <p class="content-main-text">
+      The world of programming is vast, filled with different technologies that I hope to get to know someday, even if
+      it's just a bit of each. Likewise, I aspire to specialize in the one I find most appealing. The programming world
+      is a realm that opens millions of doors to things that, in my case, remain largely unknown. I am a simple person
+      who strives to learn a bit more each day about the possibilities that exist for a programmer.
+    </p>
+  </div>
+  <div class="content-main" id="stack">
+    <h2 class="content-stack-title">Skills</h2>
+    <p class="content-stack-text">During my time at CETAV, I have studied various technologies, and I have also worked
+      with them to accomplish different tasks. Some of the technologies I have used so far include:</p>
+    <div class="content-stack">
+      <h3> <span class="content-main-title_color">Frontend</span> Technologies</h3>
+      <ul class="content-stack-list">
+        <li>CSS3</li>
+        <li>HTML5</li>
+        <LI>JAVASCRIPT</LI>
+        <LI>SASS</LI>
+      </ul>
+      <h3>React Libraries <span class="content-main-title_color">and Frameworks</span></h3>
+      <ul class="content-stack-list">
+        <li>React.js</li>
+        <li>Next.js</li>
+        <li>Material UI</li>
+        <li>ESlint</li>
+      </ul>
+      <h3><span class="content-main-title_color">Backend and DevOps</span> Technologies</h3>
+      <ul class="content-stack-list">
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Node.js</li>
+        <li>Docker</li>
+      </ul>
+    </div>
+  </div>
+  <div class="content-main content-main--width" id="projects">
+    <h2>Projects</h2>
+    <p class="project-text--principal">
+      Two of the most important projects I have worked on involve creating a hotel website. This was a collaborative
+      effort within a group, divided into two distinct phases, each with different team members. The first part
+      primarily focused on design, while the second required the implementation of functionality and visual
+      enhancements.
+    </p>
+    <div class="project" onclick="redirectToProject('https://james-gamboa.github.io/Practica-1-Hotel/')">
+      <h3 class="project-title">WDT</h3>
+      <img class="project-img" src="../img/wdt.jpeg" alt="ss1">
+      <p class="project-text">
+        The first part was mostly focused on design. We set up a web page, but it lacked any functionality other than
+        navigating from one page to another and having tabs change the information displayed at the moment.
+      </p>
+      <ul class="project-description">
+        <li>Technologies used: HTML,CSS,Sass and JavaScript.</li>
+        <li>View project: <a href="https://james-gamboa.github.io/Practica-1-Hotel/" target="_blank">WDT</a></li>
+      </ul>
+    </div>
+    <div class="project" onclick="redirectToProject('https://james-gamboa.github.io/Project-1-Final-Project/')">
+      <h3 class="project-title">Leiva´s Hotels</h3>
+      <img class="project-img" src="../img/leivahotels.jpeg" alt="ss2">
+      <p class="project-text">The second part, there were changes in the design, as well as the name of the page, which
+        went from being called "wdt" to "Leiva's Hotels". In this second part, full functionality was required. We added
+        a carousel displaying destinations, and all the information was fetched through an API. A hamburger menu was
+        implemented, and the form was set up to send emails to the email associated with the website.</p>
+      <ul class="project-description">
+        <li>Technologies used: HTML,CSS,Sass and JavaScript.</li>
+        <li>View project: <a href="https://james-gamboa.github.io/Project-1-Final-Project/" target="_blank">Leiva´s
+            Hotels</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer class="ftr">
+    <h3 class="ftr-title">Contact</h3>
+    <p class="ftr-text">If you are interested to work with me send me an email or send me a LinkedIn message</p>
+    <div class="ftr-social">
+      <a href="https://www.instagram.com/tengen_toppo/"><img class="ftr-social_icon" src="../img/public/instagram.svg"
+          alt=""></a>
+      <a href="https://github.com/juanCsacasa"><img class="ftr-social_icon" src="../img/public/github.svg" alt=""></a>
+      <a href="https://www.linkedin.com/in/juank-sacasa-598861299/"><img class="ftr-social_icon"
+          src="../img/public/linkedin.svg" alt=""></a>
+    </div>
+  </footer>
+</body>
+<script src="../src/main.js"></script>
+
+</html>

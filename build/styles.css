@@ -59,6 +59,7 @@
   .ftr {
     height: 300px;
   }
+
   .ftr-text {
     text-align: center;
   }
@@ -110,6 +111,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .navegation-link {
     display: block;
     margin: 10px 0;
@@ -124,9 +126,11 @@
     align-items: center;
     width: auto;
   }
+
   .menu-icon {
     display: none;
   }
+
   .navegation-link {
     display: flex;
     font-size: 18px;
@@ -166,13 +170,16 @@
   .content-main {
     border: none;
   }
+
   .content-main--width {
     height: 100%;
   }
+
   .content-main-title,
-  .content-main-text {
+.content-main-text {
     width: 70%;
   }
+
   .content-main-title_color {
     color: cornflowerblue;
   }
@@ -181,13 +188,16 @@
   .content-main {
     border: none;
   }
+
   .content-main--width {
     height: auto;
   }
+
   .content-main-title,
-  .content-main-text {
+.content-main-text {
     width: 50%;
   }
+
   .content-main-title_color {
     color: cornflowerblue;
   }
@@ -215,10 +225,12 @@
   .content-stack-title {
     text-align: center;
   }
+
   .content-stack-text,
-  .content-stack-list {
+.content-stack-list {
     width: 70%;
   }
+
   .content-stack {
     width: 70%;
     height: 100%;
@@ -230,11 +242,13 @@
   .content-stack-title {
     text-align: center;
   }
+
   .content-stack-text {
     width: 50%;
   }
+
   .content-stack {
-    width: 70%;
+    width: 66%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -243,6 +257,7 @@
     align-items: center;
     justify-content: flex-end;
   }
+
   .content-stack-list {
     width: 40%;
   }
@@ -286,24 +301,29 @@
   .content-main--width {
     height: 100%;
   }
+
   .project-title {
     width: 50%;
   }
+
   .project-text--principal {
     width: 70%;
     text-align: justify;
   }
+
   .project {
     width: 70%;
     margin: 0 auto 20px;
   }
+
   .project-img {
     width: 100%;
     height: 100%;
     display: block;
   }
+
   .project-text,
-  .project-description {
+.project-description {
     width: 100%;
   }
 }
@@ -311,25 +331,30 @@
   .content-main--width {
     height: auto;
   }
+
   .project-title {
     width: 50%;
     text-align: center;
   }
+
   .project-text--principal {
     width: 50%;
     text-align: justify;
   }
+
   .project {
     width: 50%;
     margin-bottom: 20px;
   }
+
   .project-img {
     width: 100%;
     height: 100%;
     display: block;
   }
+
   .project-text,
-  .project-description {
+.project-description {
     width: 100%;
   }
 }
@@ -364,15 +389,19 @@ li {
   h1 {
     font-size: 48px;
   }
+
   h2 {
     font-size: 32px;
   }
+
   h3 {
     font-size: 24px;
   }
+
   p {
     font-size: 16px;
   }
+
   li {
     font-size: 16px;
   }
@@ -381,15 +410,19 @@ li {
   h1 {
     font-size: 56px;
   }
+
   h2 {
     font-size: 48px;
   }
+
   h3 {
     font-size: 32px;
   }
+
   p {
     font-size: 18px;
   }
+
   li {
     font-size: 18px;
   }

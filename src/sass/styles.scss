@@ -10,6 +10,9 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+  a{
+    color: $color-blue;
+  }
 }
 h1{
   font-size: $title-letters-mobile-h1;
